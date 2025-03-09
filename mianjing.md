@@ -208,8 +208,6 @@ Annotation（注解）是Java5开始引入的新特性，可以看作一种特�
 
 ![img](https://uploadfiles.nowcoder.com/images/20181010/5032673_1539139922699_59B2900AA03CB2182A51CDB520B535B6)
 
-![jvm](C:\Users\ChenJY\Desktop\jvm.png)
-
 #### 6.2 垃圾回收？
 
 ```
