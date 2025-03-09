@@ -329,7 +329,7 @@ PS：只有保证了事务的原子性，隔离性，持久性后，才能保证
 
 ```
 何为自动装配：通过注解或者一些简单的配置就能在SpringBoot的帮助下实现某块功能。
-SpringBoot如何实现自动装配：SpringBoot通过@EnableAutoConfiguration开启自动装配，通过SpringFactoriesLoader最终加载META-INF/Spring.factories中的自动配置类实现自动装配，自动装配类其实就是通过@Conditional按需加载的配置类。
+SpringBoot如何实现自动装配：SpringBoot通过@EnableAutoConfiguration开启自动装配，通过SpringFactoriesLoader最终加载Spring.factories中的自动配置类实现自动装配，自动装配类其实就是通过@Conditional按需加载的配置类。
 ```
 
 ### 9.什么是SpringBean？其生命周期是？
